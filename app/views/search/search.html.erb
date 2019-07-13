@@ -1,0 +1,19 @@
+<h1>Users Search</h1>
+
+<%= form_for search_path, method: :get do |f| %>
+ <p>
+  <%= f.label "Search for" %>
+  <%= text_field_tag :q, params[:q] %>
+  <%= submit_tag "Go", name: nil %>
+ </p>
+<% end %>
+
+<ul>
+ <% @users.each do |a| %>
+  <li>
+   <h3>
+    <%= a %>
+   </h3>
+  </li>
+ <% end %>
+</ul>
