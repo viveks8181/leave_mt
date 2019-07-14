@@ -7,8 +7,9 @@
 	</thead>
 	<tr>
 	<% @users.each do |user| %>
-<td><%= user.id %></td>
+<td><%= user.id %></td> 
 <td><%= user.name %></td>
+<td><%= link_to 'delete', user_path(user), method: :delete %></td>
 <tr>
 <% end %>
 </table>
