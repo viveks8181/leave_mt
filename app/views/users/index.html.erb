@@ -9,7 +9,7 @@
 	<% @users.each do |user| %>
 <td><%= user.id %></td> 
 <td><%= user.name %></td>
-<td><%= link_to 'delete', user_path(user), method: :delete %></td>
+<td><%= link_to 'Remove', user_path(user), method: :delete %></td>
 <tr>
 <% end %>
 </table>
