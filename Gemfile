@@ -4,7 +4,7 @@ ruby "2.3.4"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use mysql as the database for Active Record
-
+gem 'paper_trail'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -26,6 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer', '~> 0.12.2'
 
 gem 'pg', '~> 0.18.4'
+
+gem 'paperclip'
+gem 'aws-sdk'
+gem 'aws-sdk-s3'
 
 # gem 'activeadmin', '~> 1.4.3'
 
