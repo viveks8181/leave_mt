@@ -31,6 +31,10 @@ gem 'paperclip'
 gem 'aws-sdk'
 gem 'aws-sdk-s3'
 
+gem 'sidekiq', '~> 5.0', '>= 5.0.5'
+
+gem 'sinatra', '~> 1.4', '>= 1.4.7'
+
 # gem 'activeadmin', '~> 1.4.3'
 
 # Use ActiveModel has_secure_password
